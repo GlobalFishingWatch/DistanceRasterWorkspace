@@ -42,6 +42,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
+rasterio/_*.html
 
 # Translations
 *.mo
@@ -56,6 +57,27 @@ docs/_build/
 # PyBuilder
 target/
 
-
-# PyCharm
+# IDE's etc.
 .idea/
+venv/
+venv2/
+
+# rasterio
+test.tif
+gdal-config.txt
+VERSION.txt
+rasterio/_fill.cpp
+rasterio/_warp.cpp
+rasterio/_base.c
+rasterio/_copy.c
+rasterio/_drivers.c
+rasterio/_err.c
+rasterio/_example.c
+rasterio/_features.c
+rasterio/_io.c
+rasterio/_crs.c
+
+
+.ipynb_checkpoints
+buh.py
+ignore
